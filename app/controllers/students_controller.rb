@@ -16,7 +16,7 @@ class StudentsController < ApplicationController
     else
       @student.active
       @student.save
-      
+
     end
   end
 
