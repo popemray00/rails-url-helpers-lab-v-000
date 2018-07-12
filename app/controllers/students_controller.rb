@@ -7,11 +7,6 @@ class StudentsController < ApplicationController
 
   def show
     @student = Student.find(params[:id])
-    if @student === inactive
-
-    else
-
-    end
   end
 
   private
