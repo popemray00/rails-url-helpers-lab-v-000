@@ -12,6 +12,5 @@ class StudentsController < ApplicationController
   private
 
     def set_student
-      @student = Student.active
     end
 end
