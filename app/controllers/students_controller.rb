@@ -10,7 +10,8 @@ class StudentsController < ApplicationController
   end
 
   def activate
-    @student = Student.find(params[:id]).active
+    @student = Student.find(params[:id])
+    @student.active
   end
 
   private
